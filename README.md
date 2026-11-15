@@ -4,7 +4,7 @@ Fixes, configs and know-how from heavily modded setups, published so other playe
 
 | Game | Folder | What's there |
 |---|---|---|
-| Kingdom Come: Deliverance II | [`kcd2/`](kcd2/) | Tuned `user.cfg`, a key scheme that ends the F-key clashes, small fixes, experimental console scripts |
+| Kingdom Come: Deliverance II | [`kcd2/`](kcd2/) | **Merge builder** (merges overlapping files from your installed mods), tuned `user.cfg`, a key scheme that ends the F-key clashes, small fixes, experimental console scripts |
 
 More games (Kenshi, Terraria, The Sims 3, Project Zomboid) are on the way.
 
@@ -14,7 +14,7 @@ Some of these fixes started life as edits to other authors' mods. Their files ar
 
 - **Our own work**, like configs, scripts and guides, MIT licensed.
 - **Instructions** for small changes you make to your own copy of a mod.
-- **Builder scripts or diffs** (coming) that apply our changes to the copies *you* already installed, on your PC.
+- **Builder scripts** that work on the copies *you* already installed, on your PC. For example, the [KCD2 merge builder](kcd2/merge-builder/) merges your mods' overlapping files locally.
 
 If you're the author of a mod mentioned here and want something changed or credited differently, open an issue or ask in the [Discord](https://discord.gg/qcmgVa2Fx6).
 

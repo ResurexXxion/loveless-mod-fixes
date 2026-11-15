@@ -40,7 +40,9 @@ If you've ever rebound a key in the game's own Controls menu, that's saved in yo
 
 ## The camping and other keybind changes
 
-The numpad camping keys, Pull Hood, Noclip and quick save all ship their own copies of the game's keybind files (`defaultProfile.xml`, `keybindSuperactions.xml`). Only the last one loaded wins, so normally only one mod's keys work. The fix is to merge them into one file that loads last. Those files belong to their mod authors, so this repo won't contain a pre-built merge; a **builder script** that makes it from your own installed mods is planned. Until then, the method is: copy both XML files from each mod, combine their entries by hand into one copy, and put that in a small mod folder named `zzz_...` so it loads last.
+The numpad camping keys, Pull Hood, Noclip and quick save all ship their own copies of the game's keybind files (`defaultProfile.xml`, `keybindSuperactions.xml`). Only the last one loaded wins, so normally only one mod's keys work. The fix is to merge them into one file that loads last.
+
+Those files belong to their mod authors, so this repo doesn't ship a pre-built merge. Instead, run the **[merge builder](merge-builder/)**: it merges the keybind files (and any other shared files) from *your* installed mods into one last-loading mod, on your PC. Then set the numpad keys in the game's Controls menu, or edit the camping mod's entries before building.
 
 ## Check in game
 

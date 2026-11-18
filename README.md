@@ -3,7 +3,8 @@
 # Loveless Mod Fixes
 
 Fixes, configs and know-how from heavily modded setups, published so other players don't have to rediscover them. One folder per game.
-n**Download:** get the zip for your game from [the latest release](../../releases/latest). Questions? Ask in the [Discord](https://discord.gg/qcmgVa2Fx6).
+
+**Download:** get the zip for your game from [the latest release](../../releases/latest). Questions? Ask in the [Discord](https://discord.gg/qcmgVa2Fx6).
 
 | Game | Folder | What's there |
 |---|---|---|

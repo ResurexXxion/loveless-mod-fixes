@@ -1,0 +1,17 @@
+name: Fix request or another game
+description: A mod conflict you'd like fixed, or a game you'd like fixes for.
+labels: [request]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: Game
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's broken or missing?
+      description: Name the mods involved (with Nexus links if you have them) and what goes wrong.
+    validations:
+      required: true

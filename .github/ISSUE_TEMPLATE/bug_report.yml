@@ -1,0 +1,32 @@
+name: Bug report
+description: A fix, config or the merge builder doesn't work for you.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! The more of this you fill in, the faster I can fix it.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part?
+      options: [KCD2 merge builder, KCD2 user.cfg, KCD2 key scheme, KCD2 small fixes, KCD2 experimental scripts, Something else]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your setup
+      description: Game version, mod manager (Vortex, MO2, manual) and roughly how many mods.
+      placeholder: "Steam 1.5.6, Vortex, ~150 mods"
+  - type: textarea
+    id: report
+    attributes:
+      label: MERGE-REPORT.txt or log lines
+      description: For the merge builder, paste MERGE-REPORT.txt. Otherwise the relevant lines from kcd.log. Please remove anything personal first (your Windows user name appears in file paths).
+      render: text
